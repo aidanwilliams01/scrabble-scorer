@@ -22,5 +22,14 @@ namespace ScorerTest.Tests
       string result = newScorer.Word;
       Assert.AreEqual(word, result);
     }
+
+    [TestMethod]
+    public void SetWord_SetsValueOfWord_Void()
+    {
+      Scorer newScorer = new Scorer("scrabble");
+      string newWord = "test";
+      newScorer.Word = newWord;
+      Assert.AreEqual(newWord, newScorer.Word);
+    }
   }
 }
