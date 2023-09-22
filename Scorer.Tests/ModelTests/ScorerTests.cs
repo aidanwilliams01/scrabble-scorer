@@ -10,8 +10,8 @@ namespace ScorerTest.Tests
     [TestMethod]
     public void ScorerConstructor_CreatesInstanceOfScorer_Scorer()
     {
-      // Scorer newScorer = new Scorer();
-      // Assert.AreEqual(typeof(Scorer), newScorer.GetType());
+      Scorer newScorer = new Scorer();
+      Assert.AreEqual(typeof(Scorer), newScorer.GetType());
     }
   }
 }
