@@ -8,6 +8,9 @@ namespace ScorerNamespace
   {
     static void Main()
     {
+      Scorer newScorer = new Scorer("scrabble3");
+      newScorer.DetermineScore();
+      
       // Console.WriteLine("*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*");
       // Console.WriteLine("Welcome to the Scrabble Scorer app!");
       // Console.WriteLine("Enter a word:");

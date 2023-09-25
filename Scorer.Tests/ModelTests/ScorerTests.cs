@@ -31,5 +31,13 @@ namespace ScorerTest.Tests
       newScorer.Word = newWord;
       Assert.AreEqual(newWord, newScorer.Word);
     }
+
+    [TestMethod]
+    public void DetermineScore_ReturnsInt_Int()
+    {
+      Scorer newScorer = new Scorer("scrabble");
+      int result = newScorer.DetermineScore();
+      Assert.AreEqual(14, result);
+    }
   }
 }
