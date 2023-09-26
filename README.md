@@ -1,6 +1,6 @@
-# (Application Name)
+# Scrabble Scorer
 
-#### (Brief description of application)
+#### A C# Scrabble scoring app.
 
 #### By Aidan Williams
 
@@ -11,6 +11,8 @@
 * _MSTest_
 
 ## Description
+
+A console application for determining the Scrabble score of a given word.
 
 ## Setup Instructions
 

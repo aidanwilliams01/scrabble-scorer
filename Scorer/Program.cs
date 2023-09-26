@@ -1,6 +1,5 @@
 using System;
 using ScorerNamespace.Models;
-using System.Collections.Generic;
 
 namespace ScorerNamespace
 {
